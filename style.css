@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: "overpass", sans-serif;
 }
 
 #background {
@@ -13,21 +14,96 @@ body {
     border-radius: 7%; 
 }
 
+#background_thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    width: 35vw;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding: 30px;
+    border-radius: 7%; 
+}
+
+#thanks {
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(216, 12%, 54%, 0.249);
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    width: 50%;
+    font-weight: bold;
+    padding: 0px 12px;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
     padding-inline-start: 0;
 }
 
-li {
+.logo {
     list-style-type: none;
-    background-color: hsl(217, 12%, 63%);
+    background-color: hsla(216, 12%, 54%, 0.249);
     border-radius: 50%;
-    text-align: center;
-    padding: 15px;
-    width: 2vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 4vw;
+    height: 6vh;
 }
 
 li a {
     text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
 }
+
+li a:hover {
+    background-color: hsl(25, 97%, 53%); 
+}
+
+li a:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+input {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    height: 6vh;
+    width: 100%;
+    font-weight: bold;
+}
+
+input:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.attribution {
+    margin-top: 15px;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
