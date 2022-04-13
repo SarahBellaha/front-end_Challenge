@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+#background {
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    width: 35vw;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding: 30px;
+    border-radius: 7%; 
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    width: 2vw;
+}
+
+li a {
+    text-decoration: none;
+}
