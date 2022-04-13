@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     height: 6vh;
-    width: 50%;
+    width: 60%;
     font-weight: bold;
     padding: 0px 12px;
 }
@@ -47,7 +47,7 @@ ul {
     padding-inline-start: 0;
 }
 
-.logo {
+.logo, .ratings {
     list-style-type: none;
     background-color: hsla(216, 12%, 54%, 0.249);
     border-radius: 50%;
@@ -58,7 +58,7 @@ ul {
     height: 6vh;
 }
 
-li a {
+li {
     text-decoration: none;
     color: white;
     width: 100%;
@@ -69,11 +69,11 @@ li a {
     border-radius: 50px;
 }
 
-li a:hover {
+li:hover {
     background-color: hsl(25, 97%, 53%); 
 }
 
-li a:focus {
+.focused {
     background-color: hsl(217, 12%, 63%);
 }
 
@@ -93,6 +93,10 @@ input {
     height: 6vh;
     width: 100%;
     font-weight: bold;
+}
+
+span {
+    padding: 4px;
 }
 
 input:hover {
